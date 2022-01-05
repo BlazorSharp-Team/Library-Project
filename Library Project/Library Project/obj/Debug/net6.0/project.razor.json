@@ -12,191 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 473929988,
-        "Kind": "Components.Component",
-        "Name": "Library_Project.Pages.Counter",
-        "AssemblyName": "Library Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Library_Project.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -1006810107,
-        "Kind": "Components.Component",
-        "Name": "Library_Project.Pages.Counter",
-        "AssemblyName": "Library Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Library_Project.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Library_Project.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1899549585,
-        "Kind": "Components.Component",
-        "Name": "Library_Project.Pages.FetchData",
-        "AssemblyName": "Library Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Library_Project.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1042013398,
-        "Kind": "Components.Component",
-        "Name": "Library_Project.Pages.FetchData",
-        "AssemblyName": "Library Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Library_Project.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Library_Project.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 741775927,
-        "Kind": "Components.Component",
-        "Name": "Library_Project.Pages.Index",
-        "AssemblyName": "Library Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Library_Project.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1088548853,
-        "Kind": "Components.Component",
-        "Name": "Library_Project.Pages.Index",
-        "AssemblyName": "Library Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Library_Project.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Library_Project.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 243786290,
-        "Kind": "Components.Component",
-        "Name": "Library_Project.App",
-        "AssemblyName": "Library Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Library_Project.App"
-        }
-      },
-      {
-        "HashCode": 831423186,
-        "Kind": "Components.Component",
-        "Name": "Library_Project.App",
-        "AssemblyName": "Library Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Library_Project.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Library_Project.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 632781470,
-        "Kind": "Components.Component",
-        "Name": "Library_Project.Shared.SurveyPrompt",
-        "AssemblyName": "Library Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Library_Project.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 1761142908,
-        "Kind": "Components.Component",
-        "Name": "Library_Project.Shared.SurveyPrompt",
-        "AssemblyName": "Library Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Library_Project.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Library_Project.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1401002536,
         "Kind": "Components.Component",
         "Name": "Library_Project.Shared.MainLayout",
@@ -289,39 +104,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "Library_Project.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -428003189,
-        "Kind": "Components.Component",
-        "Name": "Library_Project.Shared.NavMenu",
-        "AssemblyName": "Library Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Library_Project.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 1656563508,
-        "Kind": "Components.Component",
-        "Name": "Library_Project.Shared.NavMenu",
-        "AssemblyName": "Library Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Library_Project.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Library_Project.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16612,6 +16394,11 @@
   "RootNamespace": "Library_Project",
   "Documents": [
     {
+      "FilePath": "d:\\C#\\Library\\Library Project\\Library Project\\Pages\\Admin.razor",
+      "TargetPath": "Pages\\Admin.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "d:\\C#\\Library\\Library Project\\Library Project\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
@@ -16637,6 +16424,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "d:\\C#\\Library\\Library Project\\Library Project\\Pages\\Members.razor",
+      "TargetPath": "Pages\\Members.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "d:\\C#\\Library\\Library Project\\Library Project\\Pages\\FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
@@ -16650,6 +16442,16 @@
       "FilePath": "d:\\C#\\Library\\Library Project\\Library Project\\Pages\\_Layout.cshtml",
       "TargetPath": "Pages\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\C#\\Library\\Library Project\\Library Project\\Pages\\Rental_status.razor",
+      "TargetPath": "Pages\\Rental_status.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\C#\\Library\\Library Project\\Library Project\\Pages\\Books.razor",
+      "TargetPath": "Pages\\Books.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "d:\\C#\\Library\\Library Project\\Library Project\\Shared\\SurveyPrompt.razor",

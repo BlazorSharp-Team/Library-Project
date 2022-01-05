@@ -524,7 +524,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Norbi\\.nuget\\packages\\": {}
+    "C:\\Users\\sando\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -536,7 +536,7 @@
       "outputPath": "D:\\C#\\Library\\Library Project\\Library Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Norbi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sando\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
