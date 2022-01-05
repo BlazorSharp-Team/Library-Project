@@ -1,0 +1,27 @@
+D:\C#\Library\Library Project\Library Project\bin\Debug\net6.0\appsettings.Development.json
+D:\C#\Library\Library Project\Library Project\bin\Debug\net6.0\appsettings.json
+D:\C#\Library\Library Project\Library Project\bin\Debug\net6.0\Library Project.staticwebassets.runtime.json
+D:\C#\Library\Library Project\Library Project\bin\Debug\net6.0\Library Project.exe
+D:\C#\Library\Library Project\Library Project\bin\Debug\net6.0\Library Project.deps.json
+D:\C#\Library\Library Project\Library Project\bin\Debug\net6.0\Library Project.runtimeconfig.json
+D:\C#\Library\Library Project\Library Project\bin\Debug\net6.0\Library Project.dll
+D:\C#\Library\Library Project\Library Project\bin\Debug\net6.0\ref\Library Project.dll
+D:\C#\Library\Library Project\Library Project\bin\Debug\net6.0\Library Project.pdb
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\Library Project.csproj.AssemblyReference.cache
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\Library Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\Library Project.AssemblyInfoInputs.cache
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\Library Project.AssemblyInfo.cs
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\Library Project.csproj.CoreCompileInputs.cache
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\Library Project.MvcApplicationPartsAssemblyInfo.cache
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\Library Project.RazorAssemblyInfo.cache
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\Library Project.RazorAssemblyInfo.cs
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\staticwebassets.build.json
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\staticwebassets.development.json
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\scopedcss\bundle\Library Project.styles.css
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\scopedcss\projectbundle\Library Project.bundle.scp.css
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\Library Project.dll
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\ref\Library Project.dll
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\Library Project.pdb
+D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\Library Project.genruntimeconfig.cache
