@@ -10,6 +10,7 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddSingleton<Books>();
 builder.Configuration.AddJsonFile("appsettings.json", optional: false,reloadOnChange:true);
+builder.Services.AddDbContext<Books>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 

@@ -25,3 +25,14 @@ D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\Library Project.d
 D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\ref\Library Project.dll
 D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\Library Project.pdb
 D:\C#\Library\Library Project\Library Project\obj\Debug\net6.0\Library Project.genruntimeconfig.cache
+C:\Users\user\Documents\C#\Library-Project\Library Project\Library Project\obj\Debug\net6.0\Library Project.csproj.AssemblyReference.cache
+C:\Users\user\Documents\C#\Library-Project\Library Project\Library Project\obj\Debug\net6.0\Library Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\C#\Library-Project\Library Project\Library Project\obj\Debug\net6.0\Library Project.AssemblyInfoInputs.cache
+C:\Users\user\Documents\C#\Library-Project\Library Project\Library Project\obj\Debug\net6.0\Library Project.AssemblyInfo.cs
+C:\Users\user\Documents\C#\Library-Project\Library Project\Library Project\obj\Debug\net6.0\Library Project.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\C#\Library-Project\Library Project\Library Project\obj\Debug\net6.0\Library Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Documents\C#\Library-Project\Library Project\Library Project\obj\Debug\net6.0\Library Project.RazorAssemblyInfo.cache
+C:\Users\user\Documents\C#\Library-Project\Library Project\Library Project\obj\Debug\net6.0\Library Project.RazorAssemblyInfo.cs
+C:\Users\user\Documents\C#\Library-Project\Library Project\Library Project\obj\Debug\net6.0\Library Project.dll
+C:\Users\user\Documents\C#\Library-Project\Library Project\Library Project\obj\Debug\net6.0\ref\Library Project.dll
+C:\Users\user\Documents\C#\Library-Project\Library Project\Library Project\obj\Debug\net6.0\Library Project.pdb
