@@ -143,3 +143,4 @@ C:\Users\sando\Source\Repos\Library-Project\Library Project\Library Project\obj\
 C:\Users\sando\Source\Repos\Library-Project\Library Project\Library Project\obj\Debug\net6.0\ref\Library Project.dll
 C:\Users\sando\Source\Repos\Library-Project\Library Project\Library Project\obj\Debug\net6.0\Library Project.pdb
 C:\Users\sando\Source\Repos\Library-Project\Library Project\Library Project\obj\Debug\net6.0\Library Project.genruntimeconfig.cache
+C:\Users\sando\source\repos\Library-Project\Library Project\Library Project\obj\Debug\net6.0\scopedcss\Pages\Admin.razor.rz.scp.css
