@@ -19,6 +19,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sando/source/repos/Library-Project/Library Project/Library Project/Data/AddBook.razor]
+build_metadata.AdditionalFiles.TargetPath = RGF0YVxBZGRCb29rLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sando/source/repos/Library-Project/Library Project/Library Project/Data/DeleteBook.razor]
+build_metadata.AdditionalFiles.TargetPath = RGF0YVxEZWxldGVCb29rLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sando/source/repos/Library-Project/Library Project/Library Project/Pages/Books.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
