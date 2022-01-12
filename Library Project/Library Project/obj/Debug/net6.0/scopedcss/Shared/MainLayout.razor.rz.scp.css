@@ -30,7 +30,6 @@ main[b-iplt3yj9ih] {
         overflow: hidden;
         text-overflow: ellipsis;
     }
-
 @media (max-width: 640.98px) {
     .top-row:not(.auth)[b-iplt3yj9ih] {
         display: none;

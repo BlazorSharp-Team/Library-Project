@@ -1,8 +1,8 @@
-﻿@page "/books"
+﻿@page "/admin/rental_status"
 
 <div class="row">
     <div class="col-8">
-        <h3>Könyvek</h3>
+        <h3>Kölcsönzési állapotok</h3>
     </div>
     <div class="col-4">
         <div class="input-group">
@@ -13,6 +13,7 @@
     </div>
 </div>
 
+
 <table class="table table-striped">
     <thead>
         <tr>
@@ -20,7 +21,9 @@
             <th>Kiadó</th>
             <th>Szerző</th>
             <th>Cím</th>
-            <th>Kölcsönözhető</th>
+            <th>Kölcsönzés állapota</th>
+            <th>Kölcsönző</th>
+            <th>Elérhető darabszám</th>
         </tr>
     </thead>
     <tbody>
@@ -29,25 +32,31 @@
             <td>Kulcslyuk Kiadó</td>
             <td>Popper Péter</td>
             <td>Lélekrágcsálók</td>
-            <td>nem</td>
+            <td>kikölcsönözve</td>
+            <td>Sándor Milán, Ács László</td>
+            <td>0</td>
         </tr>
         <tr>
             <th>2</th>
             <td>Kossuth Kiadó</td>
             <td>G.L. Thompson</td>
             <td>Az utolsó játszma</td>
-            <td>igen</td>
-           
+            <td>nincs kikölcsnözve</td>
+            <td>-</td>
+            <td>3</td>
         </tr>
         <tr>
             <th>3</th>
             <td>Lingea</td>
             <td>-</td>
             <td>finn társalgás</td>
-            <td>igen</td>
+            <td>kikölcsnözve</td>
+            <td>Kelemen István</td>
+            <td>2</td>
         </tr>
     </tbody>
 </table>
+
 
 @code {
 

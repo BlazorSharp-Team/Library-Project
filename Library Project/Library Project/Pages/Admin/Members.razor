@@ -1,20 +1,21 @@
-﻿@page "/my-rents"
+﻿@page "/admin/members"
 
-<h3>Kölcsönzéseim</h3>
-
-<form>
-    <div class="row">
-        <div class="col">
-            Add meg a neved:
-        </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Vezetéknév">
-        </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Keresztnév">
+<div class="row">
+    <div class="col-8">
+        <h3>Tagok</h3>
+    </div>
+    <div class="col-4">
+        <div class="input-group">
+            <input type="search" class="form-control rounded" placeholder="Keresés" aria-label="Search"
+                 aria-describedby="search-addon" />
+            <button type="button" class="btn btn-outline-primary">keress</button>
         </div>
     </div>
-</form>
+</div>
+
+<div class="member">
+    Sándor Milán (keresett személy neve) kikölcsönzött könyvei:
+</div>
 
 <table class="table table-striped">
     <thead>
@@ -43,8 +44,6 @@
         </tr>
     </tbody>
 </table>
-
-
 
 @code {
 

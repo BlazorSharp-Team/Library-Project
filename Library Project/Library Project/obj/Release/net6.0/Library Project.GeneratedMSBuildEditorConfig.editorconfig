@@ -19,8 +19,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sando/source/repos/Library-Project/Library Project/Library Project/Pages/Admin.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4ucmF6b3I=
+[C:/Users/sando/source/repos/Library-Project/Library Project/Library Project/Data/AddBook.razor]
+build_metadata.AdditionalFiles.TargetPath = RGF0YVxBZGRCb29rLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sando/source/repos/Library-Project/Library Project/Library Project/Data/DeleteBook.razor]
+build_metadata.AdditionalFiles.TargetPath = RGF0YVxEZWxldGVCb29rLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sando/source/repos/Library-Project/Library Project/Library Project/Pages/Books.razor]
@@ -43,8 +47,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVycy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sando/source/repos/Library-Project/Library Project/Library Project/Pages/MyRents.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlSZW50cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sando/source/repos/Library-Project/Library Project/Library Project/Pages/Rental_status.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVudGFsX3N0YXR1cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sando/source/repos/Library-Project/Library Project/Library Project/Pages/WelcomeMessage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VsY29tZU1lc3NhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sando/source/repos/Library-Project/Library Project/Library Project/Shared/SurveyPrompt.razor]
@@ -54,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/sando/source/repos/Library-Project/Library Project/Library Project/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sando/source/repos/Library-Project/Library Project/Library Project/Pages/Admin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ifnk0gycgd
 
 [C:/Users/sando/source/repos/Library-Project/Library Project/Library Project/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
