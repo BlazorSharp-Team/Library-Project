@@ -9,9 +9,11 @@ namespace Library_Project.Data
         public int Id { get; set; }
 
         [Required]
+        [RegularExpression(@"^[a-zA-Z''-']{1,40}$", ErrorMessage = "Karakter nem megengedett")]
         public string FirstName { get; set; }
 
         [Required]
+        [RegularExpression(@"^[a-zA-Z''-']{1,40}$", ErrorMessage = "Karakter nem megengedett")]
         public string LastName { get; set; }
 
         [Required]
