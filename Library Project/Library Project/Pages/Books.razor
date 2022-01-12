@@ -1,5 +1,6 @@
 ﻿@page "/books"
-
+@using Library_Project.Data
+@inject AppDbContext _dbcontext
 <div class="row">
     <div class="col-8">
         <h3>Könyvek</h3>
@@ -24,6 +25,16 @@
         </tr>
     </thead>
     <tbody>
+        @foreach (var book in _dbcontext.Books.ToList())
+        {
+            <tr>
+                <th>@book.Id</th>
+                <td>@book.Publisher</td>
+                <td>@book.Author</td>
+                <td>@book.Title</td>
+                <td>@book.Quantity</td>
+            </tr>
+        }
         <tr>
             <th>1</th>
             <td>Kulcslyuk Kiadó</td>

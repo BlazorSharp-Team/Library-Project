@@ -63,12 +63,43 @@ namespace Library_Project.Migrations
                     Author = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Publisher = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Category = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    PublishDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    PublishDate = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Quantity = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Books", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Members",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    RegistrationDate = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Members", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Rental",
+                columns: table => new
+                {
+                    RentalID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    RentalMemberName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    RentalBookTitle = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    RentalBookIsbn = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Rental", x => x.RentalID);
                 });
 
             migrationBuilder.CreateTable(
@@ -180,7 +211,12 @@ namespace Library_Project.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "MemberId", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RegistrationDay", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "aca506b3-ed9a-4054-9fcd-8116c9b6a9f0", 0, "b2d676f7-7931-4d41-9131-f5c51a81db9c", "admin@email.hu", false, "Teszt", "Béla", false, null, new Guid("00000000-0000-0000-0000-000000000000"), null, null, null, null, false, "2022-01-10", "654aab40-4393-4ed6-b4ab-7472135f3ece", false, null });
+                values: new object[] { "c93be4ab-368d-4f3a-a49b-9774b11d65b3", 0, "b59cc6d2-41a3-432e-9c9e-7dbafae29673", "admin@email.hu", false, "Teszt", "Béla", false, null, new Guid("00000000-0000-0000-0000-000000000000"), null, null, null, null, false, "2022-01-10", "65996277-7655-43a4-a78a-1700c7fe2979", false, null });
+
+            migrationBuilder.InsertData(
+                table: "Books",
+                columns: new[] { "Id", "Author", "Category", "PublishDate", "Publisher", "Quantity", "Title", "isbnNumber" },
+                values: new object[] { 1, "Teszt János", "Mese", "1995-03-15", "Teszt Kiadó", 3, "A kis vakond", "1234567891011" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -241,6 +277,12 @@ namespace Library_Project.Migrations
 
             migrationBuilder.DropTable(
                 name: "Books");
+
+            migrationBuilder.DropTable(
+                name: "Members");
+
+            migrationBuilder.DropTable(
+                name: "Rental");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

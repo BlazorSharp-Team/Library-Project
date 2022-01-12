@@ -12,7 +12,7 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 
 //manual migration
 //dotnet-ef migrations add InitDb --project 'Library Project'
-//--context Szallashely2020.Data.DummyDbContext
+//--context Library_Project.Data.AppDbContext
 //dotnet-ef database update --project 'Library Project'
 
 // Add services to the container.

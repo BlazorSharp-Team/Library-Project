@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Library_Project.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220112143206_InitDb")]
+    [Migration("20220112191359_InitDb")]
     partial class InitDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -106,9 +106,9 @@ namespace Library_Project.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "aca506b3-ed9a-4054-9fcd-8116c9b6a9f0",
+                            Id = "c93be4ab-368d-4f3a-a49b-9774b11d65b3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b2d676f7-7931-4d41-9131-f5c51a81db9c",
+                            ConcurrencyStamp = "b59cc6d2-41a3-432e-9c9e-7dbafae29673",
                             Email = "admin@email.hu",
                             EmailConfirmed = false,
                             FirstName = "Teszt",
@@ -117,7 +117,7 @@ namespace Library_Project.Migrations
                             MemberId = new Guid("00000000-0000-0000-0000-000000000000"),
                             PhoneNumberConfirmed = false,
                             RegistrationDay = "2022-01-10",
-                            SecurityStamp = "654aab40-4393-4ed6-b4ab-7472135f3ece",
+                            SecurityStamp = "65996277-7655-43a4-a78a-1700c7fe2979",
                             TwoFactorEnabled = false
                         });
                 });
@@ -138,8 +138,9 @@ namespace Library_Project.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("PublishDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("PublishDate")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Publisher")
                         .IsRequired()
@@ -159,6 +160,72 @@ namespace Library_Project.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Books");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Author = "Teszt János",
+                            Category = "Mese",
+                            PublishDate = "1995-03-15",
+                            Publisher = "Teszt Kiadó",
+                            Quantity = 3,
+                            Title = "A kis vakond",
+                            isbnNumber = "1234567891011"
+                        });
+                });
+
+            modelBuilder.Entity("Library_Project.Data.Members", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("RegistrationDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Members");
+                });
+
+            modelBuilder.Entity("Library_Project.Data.Rental", b =>
+                {
+                    b.Property<int>("RentalID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RentalID"), 1L, 1);
+
+                    b.Property<string>("RentalBookIsbn")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RentalBookTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RentalMemberName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("RentalID");
+
+                    b.ToTable("Rental");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
