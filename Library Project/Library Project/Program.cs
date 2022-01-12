@@ -1,21 +1,50 @@
 using Library_Project.Data;
 using Library_Project.Interfaces;
-using Library_Project.Services;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Components.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//manual migration
+//dotnet-ef migrations add InitDb --project 'Library Project'
+//--context Szallashely2020.Data.DummyDbContext
+//dotnet-ef database update --project 'Library Project'
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+//builder.Services.AddRazorPages();
+builder.Services.AddRazorPages(options =>
+{
+    options.Conventions.AuthorizeFolder("/Admin/");
+    options.Conventions.AllowAnonymousToPage("/Login");
+});
 builder.Services.AddServerSideBlazor();
-builder.Services.AddSingleton<WeatherForecastService>();
-builder.Services.AddSingleton<Books>();
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddTransient<IBooks, BookManager>();
+builder.Services.Configure<AppDbContext>(options => options.Database.Migrate());
+
+//builder.Services.AddSingleton<Books>();
+/*builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<AppDbContext>();*/
+builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
+{
+    options.SignIn.RequireConfirmedAccount = false;
+    // egyszerûsítjük a jelszót, nem kell szám, elég 3 karakter, és nem bonyolítjuk nagybetûvel és spéci karakterrel
+    options.Password.RequireDigit = false;
+
+    options.Password.RequiredLength = 6;  // hat karaker alá nem lehet levinni, mert a regisztrációs lapon is van egy ellenõrzés
+    options.Password.RequiredUniqueChars = 0;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    options.Lockout.AllowedForNewUsers = true;
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromDays(2);
+    options.Lockout.MaxFailedAccessAttempts = 3;
+
+}).AddRoles<IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 builder.Services.AddControllersWithViews();
+
 
 var app = builder.Build();
 
@@ -32,7 +61,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-app.MapRazorPages();
+app.UseAuthentication();app.MapRazorPages();
 app.MapControllers();
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");

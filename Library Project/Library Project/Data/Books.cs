@@ -22,7 +22,7 @@ namespace Library_Project.Data
         [Required]
         public string Category { get; set; }
 
-        public DateTime PublishDate { get; set; }
+        public string PublishDate { get; set; }
 
         [Required]
         public int Quantity { get; set; }

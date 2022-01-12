@@ -33,81 +33,6 @@ button[b-1zgatt9vtf] {
 }
 
 
-/* _content/Library Project/Pages/Admin/Rental_status.razor.rz.scp.css */
-h3[b-oqypuaghfr] {
-    font-weight: 700;
-}
-
-thead[b-oqypuaghfr] {
-    color: rgb(255 255 255);
-    background-image: linear-gradient(180deg, rgb(85, 104, 75) 0%, #008000 70%);
-    border-bottom: 3px solid black;
-}
-
-.btn-outline-primary[b-oqypuaghfr],
-.btn-outline-primary:hover[b-oqypuaghfr],
-.btn-outline-primary:active[b-oqypuaghfr],
-.btn-outline-primary:visited[b-oqypuaghfr],
-.btn-outline-primary:focus[b-oqypuaghfr] {
-    background-color: #008000;
-    border-color: #008000;
-    color: #ffffff;
-}
-/* _content/Library Project/Pages/Books.razor.rz.scp.css */
-h3[b-7ca2hfy9c5] {
-    font-weight: 700;
-}
-
-thead[b-7ca2hfy9c5] {
-    color: rgb(255 255 255);
-    background-image: linear-gradient(180deg, rgb(85, 104, 75) 0%, #008000 70%);
-    border-bottom: 3px solid black;
-}
-
-.btn-outline-primary[b-7ca2hfy9c5],
-.btn-outline-primary:hover[b-7ca2hfy9c5],
-.btn-outline-primary:active[b-7ca2hfy9c5],
-.btn-outline-primary:visited[b-7ca2hfy9c5],
-.btn-outline-primary:focus[b-7ca2hfy9c5] {
-    background-color: #008000;
-    border-color: #008000;
-    color: #ffffff;
-}
-/* _content/Library Project/Pages/Members.razor.rz.scp.css */
-h3[b-1uncfwwo2k] {
-    font-weight: 700;
-}
-
-.member[b-1uncfwwo2k] {
-    font-weight: 700;
-}
-
-thead[b-1uncfwwo2k] {
-    color: rgb(255 255 255);
-    background-image: linear-gradient(180deg, rgb(85, 104, 75) 0%, #008000 70%);
-    border-bottom: 3px solid black;
-}
-
-.btn-outline-primary[b-1uncfwwo2k],
-.btn-outline-primary:hover[b-1uncfwwo2k],
-.btn-outline-primary:active[b-1uncfwwo2k],
-.btn-outline-primary:visited[b-1uncfwwo2k],
-.btn-outline-primary:focus[b-1uncfwwo2k] {
-    background-color: #008000;
-    border-color: #008000;
-    color: #ffffff;
-}
-/* _content/Library Project/Pages/MyRents.razor.rz.scp.css */
-h3[b-fb21lzc3d2] {
-    font-weight: 700;
-}
-
-thead[b-fb21lzc3d2] {
-    color: rgb(255 255 255);
-    background-image: linear-gradient(180deg, rgb(85, 104, 75) 0%, #008000 70%);
-    border-bottom: 3px solid black;
-}
-
 /* _content/Library Project/Shared/MainLayout.razor.rz.scp.css */
 .page[b-iplt3yj9ih] {
     position: relative;
@@ -141,6 +66,7 @@ main[b-iplt3yj9ih] {
         overflow: hidden;
         text-overflow: ellipsis;
     }
+
 @media (max-width: 640.98px) {
     .top-row:not(.auth)[b-iplt3yj9ih] {
         display: none;
