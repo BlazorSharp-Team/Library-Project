@@ -1,0 +1,75 @@
+﻿@page "/admin/books"
+@using Library_Project.Data
+@inject AppDbContext _dbcontext
+<div class="row">
+    <div class="col-8">
+        <h3>Könyvek</h3>
+    </div>
+    <div class="col-4">
+        <div class="input-group">
+            <input type="search" class="form-control rounded" placeholder="Keresés" aria-label="Search"
+                 aria-describedby="search-addon" />
+            <button type="button" class="btn btn-outline-primary">keress</button>
+        </div>
+    </div>
+</div>
+<NavLink class="nav-link" href="Create">
+    <span class="oi oi-plus" aria-hidden="true">Új Könyv Hozzáadása</span>
+
+</NavLink>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Kiadó</th>
+            <th>Szerző</th>
+            <th>Cím</th>
+            <th>Kölcsönözhető</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in _dbcontext.Books.ToList())
+        {
+            <tr>
+                <th>@book.Id</th>
+                <td>@book.Publisher</td>
+                <td>@book.Author</td>
+                <td>@book.Title</td>
+                <td>@book.Quantity</td>
+            </tr>
+        }
+        <tr>
+            <th>1</th>
+            <td>Kulcslyuk Kiadó</td>
+            <td>Popper Péter</td>
+            <td>Lélekrágcsálók</td>
+            <td>nem</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Kossuth Kiadó</td>
+            <td>G.L. Thompson</td>
+            <td>Az utolsó játszma</td>
+            <td>igen</td>
+           
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Lingea</td>
+            <td>-</td>
+            <td>finn társalgás</td>
+            <td>igen</td>
+        </tr>
+    </tbody>
+</table>
+
+@code {
+    private Library_Project.Services.BookService bookService { get; set; }
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        bookService = new Library_Project.Services.BookService(_dbcontext);
+        var qwe = bookService.GetAllBooks();
+    }
+}

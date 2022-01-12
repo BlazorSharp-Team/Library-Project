@@ -19,6 +19,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Books.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQm9va3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Members.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWVtYmVycy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -221,6 +225,66 @@ build_metadata.AdditionalFiles.CssScope =
 
 [c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Member/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWVtYmVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Member/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWVtYmVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Member/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWVtYmVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Member/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWVtYmVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Member/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWVtYmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Rental/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVudGFsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Rental/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVudGFsXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Rental/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVudGFsXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Rental/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVudGFsXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Admin/Rental/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVudGFsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/Norbi/Documents/C\#/Final/Library-Project/Library Project/Library Project/Pages/Error.cshtml]

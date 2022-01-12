@@ -12,6 +12,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 1390836171,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Admin.Books",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Books"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Admin.Books"
+        }
+      },
+      {
+        "HashCode": -72540353,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Admin.Books",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.Pages.Admin.Books"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Admin.Books",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -2029507058,
         "Kind": "Components.Component",
         "Name": "Library_Project.Pages.Admin.Members",
@@ -16802,9 +16835,24 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Delete.cshtml",
+      "TargetPath": "Pages\\Admin\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Rental\\Edit.cshtml",
+      "TargetPath": "Pages\\Admin\\Rental\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Books.razor",
       "TargetPath": "Pages\\Books.razor",
       "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Member\\Create.cshtml",
+      "TargetPath": "Pages\\Admin\\Member\\Create.cshtml",
+      "FileKind": "mvc"
     },
     {
       "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
@@ -16814,6 +16862,11 @@
     {
       "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Member\\Edit.cshtml",
+      "TargetPath": "Pages\\Admin\\Member\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16862,6 +16915,16 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Member\\Details.cshtml",
+      "TargetPath": "Pages\\Admin\\Member\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Books.razor",
+      "TargetPath": "Pages\\Admin\\Books.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
       "FileKind": "mvc"
@@ -16869,6 +16932,11 @@
     {
       "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Rental\\Delete.cshtml",
+      "TargetPath": "Pages\\Admin\\Rental\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16889,6 +16957,16 @@
     {
       "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Member\\Index.cshtml",
+      "TargetPath": "Pages\\Admin\\Member\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Rental\\Index.cshtml",
+      "TargetPath": "Pages\\Admin\\Rental\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16937,6 +17015,16 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Details.cshtml",
+      "TargetPath": "Pages\\Admin\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Member\\Delete.cshtml",
+      "TargetPath": "Pages\\Admin\\Member\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -16949,6 +17037,11 @@
     {
       "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Rental\\Details.cshtml",
+      "TargetPath": "Pages\\Admin\\Rental\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16997,6 +17090,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Create.cshtml",
+      "TargetPath": "Pages\\Admin\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -17004,6 +17102,11 @@
     {
       "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Edit.cshtml",
+      "TargetPath": "Pages\\Admin\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -17024,6 +17127,11 @@
     {
       "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Rental\\Create.cshtml",
+      "TargetPath": "Pages\\Admin\\Rental\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -17059,6 +17167,11 @@
     {
       "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Index.cshtml",
+      "TargetPath": "Pages\\Admin\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

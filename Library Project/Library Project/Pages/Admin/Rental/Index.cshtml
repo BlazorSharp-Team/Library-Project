@@ -1,0 +1,52 @@
+﻿@page
+@model Library_Project.Pages.Admin.Rental.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Rental[0].RentalMemberName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rental[0].RentalBookTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rental[0].RentalBookIsbn)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Rental) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RentalMemberName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RentalBookTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RentalBookIsbn)
+            </td>
+            <td>
+
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.RentalID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.RentalID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.RentalID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
