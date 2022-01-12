@@ -9797,19 +9797,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Norbi\\.nuget\\packages\\": {}
+    "C:\\Users\\sando\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Library Project.csproj",
+      "projectUniqueName": "C:\\Users\\sando\\Source\\Repos\\Library-Project\\Library Project\\Library Project\\Library Project.csproj",
       "projectName": "Library Project",
-      "projectPath": "C:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Library Project.csproj",
-      "packagesPath": "C:\\Users\\Norbi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\obj\\",
+      "projectPath": "C:\\Users\\sando\\Source\\Repos\\Library-Project\\Library Project\\Library Project\\Library Project.csproj",
+      "packagesPath": "C:\\Users\\sando\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sando\\Source\\Repos\\Library-Project\\Library Project\\Library Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Norbi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sando\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
