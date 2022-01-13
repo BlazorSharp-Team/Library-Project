@@ -8,8 +8,7 @@
     <div class="col-4">
         <div class="input-group">
             <input type="search" class="form-control rounded" placeholder="Keresés" aria-label="Search"
-                 aria-describedby="search-addon" />
-            <button type="button" class="btn btn-success">keress</button>
+                 aria-describedby="search-addon" @bind-value="seString" @bind-value:event="oninput"/>
         </div>
     </div>
 </div>
@@ -21,45 +20,42 @@
             <th>Kiadó</th>
             <th>Szerző</th>
             <th>Cím</th>
+            <th>Kategória</th>
+            <th>Kiadás éve</th>
             <th>Kölcsönözhető</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var book in _dbcontext.Books.ToList())
+        @foreach (var book in _dbcontext.Books.ToList().Where(p => p.Title.Contains(seString) && p.Id != _newBook.Id))
         {
             <tr>
                 <th>@book.Id</th>
                 <td>@book.Publisher</td>
                 <td>@book.Author</td>
                 <td>@book.Title</td>
-                <td>@book.Quantity</td>
+                <td>@book.Category</td>
+                <td>@book.PublishDate</td>
+                @{
+                        if (book.Quantity > 0)
+                        {
+                        <td>igen</td>
+                        ;
+                    }
+                    else
+                    {
+                        <td>nem</td>
+                        ;
+                    }
+                }
             </tr>
         }
-        <tr>
-            <th>1</th>
-            <td>Kulcslyuk Kiadó</td>
-            <td>Popper Péter</td>
-            <td>Lélekrágcsálók</td>
-            <td>nem</td>
-        </tr>
-        <tr>
-            <th>2</th>
-            <td>Kossuth Kiadó</td>
-            <td>G.L. Thompson</td>
-            <td>Az utolsó játszma</td>
-            <td>igen</td>
-           
-        </tr>
-        <tr>
-            <th>3</th>
-            <td>Lingea</td>
-            <td>-</td>
-            <td>finn társalgás</td>
-            <td>igen</td>
-        </tr>
     </tbody>
 </table>
 
 @code {
+
+    private string seString { get; set; } = string.Empty;
+
+    private Data.Books _newBook { get; set; } = new Data.Books();
 
 }

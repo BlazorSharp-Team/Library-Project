@@ -35,6 +35,37 @@ namespace Library_Project.Pages.Admin.Rental
                 return Page();
             }
 
+            var members = _context.Members.ToList();
+            var booktitles = _context.Books.ToList();
+
+            List<string> fullNames = new List<string>();
+            List<string> bookTitles = new List<string>();
+            List<int> bookIds = new List<int>();
+
+            foreach (var member in members)
+            {
+                fullNames.Add(member.FirstName + " " + member.LastName);
+            }
+
+            foreach (var bookt in booktitles)
+            {
+                bookTitles.Add(bookt.Title);
+                bookIds.Add(bookt.Id);
+            }
+
+            if (!fullNames.Any(p => Rental.RentalMemberName.Contains(p)))
+            {
+                return RedirectToPage("./Index");
+            }
+
+            if (fullNames.Any(p => Rental.RentalMemberName.Contains(p)))
+            {
+                if (!bookTitles.Any(p => Rental.RentalBookTitle.Contains(p)))
+                {
+                    return RedirectToPage("./Index");
+                }
+            }
+
             _context.Rental.Add(Rental);
             await _context.SaveChangesAsync();
 

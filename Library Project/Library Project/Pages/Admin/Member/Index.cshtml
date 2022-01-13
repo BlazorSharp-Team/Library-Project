@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "/admin/member"
 @model Library_Project.Pages.Admin.Member.IndexModel
 
 @{
@@ -6,7 +6,28 @@
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<div class="container">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../admin">Könyvek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../admin/member">Tagok</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="../admin/rental">Kölcsönzések</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+</div>
+
+<h1>Tagok</h1>
 
 <p>
     <a asp-page="Create" class="btn btn-success">Új Létrehozása</a>
@@ -15,6 +36,9 @@
     <thead style="background-image: linear-gradient(180deg, rgb(85, 104, 75) 0%, #008000 70%);
            color: #ffffff">
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Members[0].Id)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Members[0].FirstName)
             </th>
@@ -25,14 +49,22 @@
                 @Html.DisplayNameFor(model => model.Members[0].Email)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Members[0].MemberId)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Members[0].RegistrationDate)
             </th>
+            <th></th>
+            <th></th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model.Members) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.FirstName)
             </td>
@@ -43,11 +75,18 @@
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.MemberId)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.RegistrationDate)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id" style="background-color: #5c3a93" class="btn btn-success">Módosít</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-warning">Részletek</a> |
+                <a asp-page="./Edit" asp-route-id="@item.Id" style="background-color: #5c3a93" class="btn btn-success">Módosít</a>
+            </td>
+            <td>
+                <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-warning">Részletek</a>
+            </td>
+            <td>
                 <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Töröl</a>
             </td>
         </tr>
