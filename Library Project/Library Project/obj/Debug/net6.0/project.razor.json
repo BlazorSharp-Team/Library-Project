@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1390836171,
-        "Kind": "Components.Component",
-        "Name": "Library_Project.Pages.Admin.Books",
-        "AssemblyName": "Library Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Books"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Library_Project.Pages.Admin.Books"
-        }
-      },
-      {
-        "HashCode": -72540353,
-        "Kind": "Components.Component",
-        "Name": "Library_Project.Pages.Admin.Books",
-        "AssemblyName": "Library Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Library_Project.Pages.Admin.Books"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Library_Project.Pages.Admin.Books",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1962125157,
         "Kind": "Components.Component",
         "Name": "Library_Project.Pages.Admin.Admin",
@@ -173,6 +140,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Library_Project.Pages.Admin.Rents",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1390836171,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Admin.Books",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Books"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Admin.Books"
+        }
+      },
+      {
+        "HashCode": -72540353,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Admin.Books",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.Pages.Admin.Books"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Admin.Books",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
