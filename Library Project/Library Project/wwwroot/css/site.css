@@ -12,6 +12,12 @@ a, .btn-link {
     color: #0071c1;
 }
 
+thead {
+    background-image: linear-gradient(180deg, rgb(85, 104, 75) 0%, #008000 70%);
+    color: #ffffff;
+    border-bottom: 3px solid #000000;
+}
+
 .btn-primary {
     color: #fff;
     background-color: #1b6ec2;

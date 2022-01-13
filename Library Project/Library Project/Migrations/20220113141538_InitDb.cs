@@ -211,7 +211,7 @@ namespace Library_Project.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "MemberId", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RegistrationDay", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "c93be4ab-368d-4f3a-a49b-9774b11d65b3", 0, "b59cc6d2-41a3-432e-9c9e-7dbafae29673", "admin@email.hu", false, "Teszt", "Béla", false, null, new Guid("00000000-0000-0000-0000-000000000000"), null, null, null, null, false, "2022-01-10", "65996277-7655-43a4-a78a-1700c7fe2979", false, null });
+                values: new object[] { "1b811341-e72d-4880-8b86-05ee88de8848", 0, "8ecd7132-dc9e-4a07-8c9e-45ddd1238a04", "admin@email.hu", false, "Teszt", "Béla", false, null, new Guid("00000000-0000-0000-0000-000000000000"), null, null, null, null, false, "2022-01-10", "89387e91-ca15-469a-ae9d-10161124e44e", false, null });
 
             migrationBuilder.InsertData(
                 table: "Books",

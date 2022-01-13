@@ -9,10 +9,11 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create" class="btn btn-success">Create New</a>
 </p>
-<table class="table">
-    <thead>
+<table class="table table-striped">
+    <thead style="background-image: linear-gradient(180deg, rgb(85, 104, 75) 0%, #008000 70%);
+           color: #ffffff">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Rental[0].RentalID)
@@ -32,6 +33,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Rental[0].ReturnDate)
             </th>
+            <th></th>
             <th></th>
         </tr>
     </thead>
@@ -60,9 +62,9 @@
 
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.RentalID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.RentalID">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.RentalID">Delete</a>
+                <a asp-page="./Edit" asp-route-id="@item.RentalID" style="background-color: #5c3a93" class="btn btn-success">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.RentalID" class="btn btn-warning">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.RentalID" class="btn btn-danger">Delete</a>
             </td>
         </tr>
 }

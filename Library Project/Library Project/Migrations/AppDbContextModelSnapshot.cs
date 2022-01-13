@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Library_Project.Migrations
 {
-    [DbContext(typeof(Data.AppDbContext))]
+    [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -104,9 +104,9 @@ namespace Library_Project.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "c93be4ab-368d-4f3a-a49b-9774b11d65b3",
+                            Id = "1b811341-e72d-4880-8b86-05ee88de8848",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b59cc6d2-41a3-432e-9c9e-7dbafae29673",
+                            ConcurrencyStamp = "8ecd7132-dc9e-4a07-8c9e-45ddd1238a04",
                             Email = "admin@email.hu",
                             EmailConfirmed = false,
                             FirstName = "Teszt",
@@ -115,7 +115,7 @@ namespace Library_Project.Migrations
                             MemberId = new Guid("00000000-0000-0000-0000-000000000000"),
                             PhoneNumberConfirmed = false,
                             RegistrationDay = "2022-01-10",
-                            SecurityStamp = "65996277-7655-43a4-a78a-1700c7fe2979",
+                            SecurityStamp = "89387e91-ca15-469a-ae9d-10161124e44e",
                             TwoFactorEnabled = false
                         });
                 });
