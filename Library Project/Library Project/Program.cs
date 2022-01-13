@@ -1,5 +1,4 @@
 using Library_Project.Data;
-using Library_Project.Interfaces;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.ResponseCompression;
@@ -19,11 +18,11 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 //builder.Services.AddRazorPages();
 builder.Services.AddRazorPages(options =>
 {
-    options.Conventions.AuthorizeFolder("/Admin/");
+    options.Conventions.AuthorizeFolder("/Admin/alma");
     options.Conventions.AllowAnonymousToPage("/Login");
 });
 builder.Services.AddServerSideBlazor();
-builder.Services.Configure<AppDbContext>(options => options.Database.Migrate());
+//builder.Services.Configure<AppDbContext>(options => options.Database.Migrate());
 
 //builder.Services.AddSingleton<Books>();
 /*builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
