@@ -6,10 +6,10 @@
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<h1>Részletek</h1>
 
 <div>
-    <h4 style="border-bottom: 3px solid black">Rental</h4>
+    <h4 style="border-bottom: 3px solid black">Kölcsönzés</h4>
     <dl class="row">
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Rental.RentalMemberName)
@@ -32,6 +32,6 @@
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Rental.RentalID" style="background-color: #5c3a93" class="btn btn-success">Edit</a> |
-    <a asp-page="./Index" class="btn btn-success">Back to List</a>
+    <a asp-page="./Edit" asp-route-id="@Model.Rental.RentalID" style="background-color: #5c3a93" class="btn btn-success">Módosít</a> |
+    <a asp-page="./Index" class="btn btn-success">Vissza</a>
 </div>

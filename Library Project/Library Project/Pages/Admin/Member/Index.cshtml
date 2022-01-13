@@ -9,7 +9,7 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-page="Create" class="btn btn-success">Create New</a>
+    <a asp-page="Create" class="btn btn-success">Új Létrehozása</a>
 </p>
 <table class="table">
     <thead style="background-image: linear-gradient(180deg, rgb(85, 104, 75) 0%, #008000 70%);
@@ -46,9 +46,9 @@
                 @Html.DisplayFor(modelItem => item.RegistrationDate)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id" style="background-color: #5c3a93" class="btn btn-success">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-warning">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                <a asp-page="./Edit" asp-route-id="@item.Id" style="background-color: #5c3a93" class="btn btn-success">Módosít</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-warning">Részletek</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Töröl</a>
             </td>
         </tr>
 }
