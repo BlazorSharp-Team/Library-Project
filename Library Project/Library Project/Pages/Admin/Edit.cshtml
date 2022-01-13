@@ -5,11 +5,13 @@
     ViewData["Title"] = "Edit";
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
+<head>
+    <link rel="stylesheet" href="Edit.css" type="text/css" />
+</head>
 
 <h1>Edit</h1>
 
-<h4>Books</h4>
-<hr />
+<h4 style="border-bottom: 3px solid black">Books</h4>
 <div class="row">
     <div class="col-md-4">
         <form method="post">
@@ -58,7 +60,7 @@
 </div>
 
 <div>
-    <a asp-page="./Index">Back to List</a>
+    <a asp-page="./Index" class="btn btn-success">Back to List</a>
 </div>
 
 @section Scripts {

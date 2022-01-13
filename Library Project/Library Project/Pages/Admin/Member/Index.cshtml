@@ -9,10 +9,11 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create" class="btn btn-success">Create New</a>
 </p>
 <table class="table">
-    <thead>
+    <thead style="background-image: linear-gradient(180deg, rgb(85, 104, 75) 0%, #008000 70%);
+           color: #ffffff">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Members[0].FirstName)
@@ -45,9 +46,9 @@
                 @Html.DisplayFor(modelItem => item.RegistrationDate)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-page="./Edit" asp-route-id="@item.Id" style="background-color: #5c3a93" class="btn btn-success">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-warning">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
             </td>
         </tr>
 }
