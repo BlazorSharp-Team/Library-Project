@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sando\\source\\repos\\Library-Project\\Library Project\\Library Project\\Library Project.csproj": {}
+    "C:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Library Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sando\\source\\repos\\Library-Project\\Library Project\\Library Project\\Library Project.csproj": {
+    "C:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Library Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sando\\source\\repos\\Library-Project\\Library Project\\Library Project\\Library Project.csproj",
+        "projectUniqueName": "C:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Library Project.csproj",
         "projectName": "Library Project",
-        "projectPath": "C:\\Users\\sando\\source\\repos\\Library-Project\\Library Project\\Library Project\\Library Project.csproj",
-        "packagesPath": "C:\\Users\\sando\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sando\\source\\repos\\Library-Project\\Library Project\\Library Project\\obj\\",
+        "projectPath": "C:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Library Project.csproj",
+        "packagesPath": "C:\\Users\\Norbi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Norbi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

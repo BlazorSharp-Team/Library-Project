@@ -16,6 +16,9 @@
            color: #ffffff">
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.Rental[0].RentalID)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Rental[0].RentalMemberName)
             </th>
             <th>
@@ -23,6 +26,12 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Rental[0].RentalBookIsbn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rental[0].RentalDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rental[0].ReturnDate)
             </th>
             <th></th>
             <th></th>
@@ -32,6 +41,9 @@
 @foreach (var item in Model.Rental) {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.RentalID)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.RentalMemberName)
             </td>
             <td>
@@ -39,6 +51,12 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.RentalBookIsbn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RentalDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReturnDate)
             </td>
             <td>
 
