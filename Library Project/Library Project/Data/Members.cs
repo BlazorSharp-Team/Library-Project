@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Library_Project.Data
 {
@@ -21,6 +22,6 @@ namespace Library_Project.Data
 
         public Guid MemberId = Guid.NewGuid();
 
-        public DateTime RegistrationDate { get; set; }
+        public DateTime RegistrationDate = DateTime.Today;
     }
 }

@@ -24,7 +24,7 @@ namespace Library_Project.Data
         protected override void OnModelCreating(ModelBuilder builder)
         {
             //builder.Entity<Books>().HasData(new Books { Title = "" })
-            builder.Entity<ApplicationUser>().HasData(new ApplicationUser { FirstName = "Teszt", LastName = "Béla", Email = "admin@email.hu", MemberId = new Guid(), RegistrationDay = "2022-01-10" });
+            builder.Entity<Members>().HasData(new Members { Id = 1, FirstName = "Teszt", LastName = "Béla", Email = "admin@email.hu", MemberId = new Guid() });
             builder.Entity<Books>().HasData(new Books { Id = 1, Title = "A kis vakond", isbnNumber = "1234567891011", Author = "Teszt János", Publisher = "Teszt Kiadó", Category = "Mese", PublishDate = "1995-03-15", Quantity = 3 });
             base.OnModelCreating(builder);
         }

@@ -35,6 +35,7 @@
             </th>
             <th></th>
             <th></th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -59,11 +60,12 @@
                 @Html.DisplayFor(modelItem => item.ReturnDate)
             </td>
             <td>
-
+                <a asp-page="./Edit" asp-route-id="@item.RentalID" style="background-color: #5c3a93" class="btn btn-success">Edit</a>
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.RentalID" style="background-color: #5c3a93" class="btn btn-success">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.RentalID" class="btn btn-warning">Details</a> |
+                <a asp-page="./Details" asp-route-id="@item.RentalID" class="btn btn-warning">Details</a>
+            </td>
+            <td>
                 <a asp-page="./Delete" asp-route-id="@item.RentalID" class="btn btn-danger">Delete</a>
             </td>
         </tr>
