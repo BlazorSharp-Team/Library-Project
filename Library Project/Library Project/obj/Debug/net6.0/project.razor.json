@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final\\Library-Project\\Library Project\\Library Project\\Library Project.csproj",
+  "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Library Project.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -11,6 +11,518 @@
   },
   "ProjectWorkspaceState": {
     "TagHelpers": [
+      {
+        "HashCode": 1390836171,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Admin.Books",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Books"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Admin.Books"
+        }
+      },
+      {
+        "HashCode": -72540353,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Admin.Books",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.Pages.Admin.Books"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Admin.Books",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1962125157,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Admin.Admin",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Admin"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Admin.Admin"
+        }
+      },
+      {
+        "HashCode": 1265359398,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Admin.Admin",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.Pages.Admin.Admin"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Admin.Admin",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2029507058,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Admin.Members",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Members"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Admin.Members"
+        }
+      },
+      {
+        "HashCode": 775567434,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Admin.Members",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.Pages.Admin.Members"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Admin.Members",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1470093073,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Admin.Rental_status",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Rental_status"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Admin.Rental_status"
+        }
+      },
+      {
+        "HashCode": -464164216,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Admin.Rental_status",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.Pages.Admin.Rental_status"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Admin.Rental_status",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1582600080,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Admin.Rents",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Rents"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Admin.Rents"
+        }
+      },
+      {
+        "HashCode": 566462838,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Admin.Rents",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.Pages.Admin.Rents"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Admin.Rents",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 741775927,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Index",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1088548853,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Index",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -422922870,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.WelcomeMessage",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WelcomeMessage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.WelcomeMessage"
+        }
+      },
+      {
+        "HashCode": 1633245617,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.WelcomeMessage",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.Pages.WelcomeMessage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.WelcomeMessage",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 27925294,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Books",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Books"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Books"
+        }
+      },
+      {
+        "HashCode": -197958900,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.Books",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.Pages.Books"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.Books",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1760707567,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.MyRents",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyRents"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.MyRents"
+        }
+      },
+      {
+        "HashCode": 824270129,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Pages.MyRents",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.Pages.MyRents"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Pages.MyRents",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 243786290,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.App",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.App"
+        }
+      },
+      {
+        "HashCode": 831423186,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.App",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 632781470,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Shared.SurveyPrompt",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 1761142908,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Shared.SurveyPrompt",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1401002536,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Shared.MainLayout",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Shared.MainLayout"
+        }
+      },
+      {
+        "HashCode": 1846507300,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Shared.MainLayout",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.Shared.MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Shared.MainLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1627912827,
+        "Kind": "Components.ChildContent",
+        "Name": "Library_Project.Shared.MainLayout.Body",
+        "AssemblyName": "Library Project",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Library_Project.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 460976082,
+        "Kind": "Components.ChildContent",
+        "Name": "Library_Project.Shared.MainLayout.Body",
+        "AssemblyName": "Library Project",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "Library_Project.Shared.MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Library_Project.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -428003189,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Shared.NavMenu",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 1656563508,
+        "Kind": "Components.Component",
+        "Name": "Library_Project.Shared.NavMenu",
+        "AssemblyName": "Library Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Library_Project.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Library_Project.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
       {
         "HashCode": 1065816939,
         "Kind": "Components.Component",
@@ -16296,6 +16808,387 @@
     "CSharpLanguageVersion": 1000
   },
   "RootNamespace": "Library_Project",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Details.cshtml",
+      "TargetPath": "Pages\\Admin\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Members.razor",
+      "TargetPath": "Pages\\Admin\\Members.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\_StatusMessage.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_StatusMessage.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Member\\Details.cshtml",
+      "TargetPath": "Pages\\Admin\\Member\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Admin.razor",
+      "TargetPath": "Pages\\Admin\\Admin.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Member\\Delete.cshtml",
+      "TargetPath": "Pages\\Admin\\Member\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Books.razor",
+      "TargetPath": "Pages\\Admin\\Books.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Rents.razor",
+      "TargetPath": "Pages\\Admin\\Rents.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Edit.cshtml",
+      "TargetPath": "Pages\\Admin\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Create.cshtml",
+      "TargetPath": "Pages\\Admin\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Delete.cshtml",
+      "TargetPath": "Pages\\Admin\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Rental\\Edit.cshtml",
+      "TargetPath": "Pages\\Admin\\Rental\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Rental_status.razor",
+      "TargetPath": "Pages\\Admin\\Rental_status.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Rental\\Delete.cshtml",
+      "TargetPath": "Pages\\Admin\\Rental\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Error.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Member\\Index.cshtml",
+      "TargetPath": "Pages\\Admin\\Member\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\WelcomeMessage.razor",
+      "TargetPath": "Pages\\WelcomeMessage.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\MyRents.razor",
+      "TargetPath": "Pages\\MyRents.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Member\\Create.cshtml",
+      "TargetPath": "Pages\\Admin\\Member\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Books.razor",
+      "TargetPath": "Pages\\Books.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Member\\Edit.cshtml",
+      "TargetPath": "Pages\\Admin\\Member\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Index.cshtml",
+      "TargetPath": "Pages\\Admin\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\_Layout.cshtml",
+      "TargetPath": "Pages\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Rental\\Details.cshtml",
+      "TargetPath": "Pages\\Admin\\Rental\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Rental\\Index.cshtml",
+      "TargetPath": "Pages\\Admin\\Rental\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Pages\\Admin\\Rental\\Create.cshtml",
+      "TargetPath": "Pages\\Admin\\Rental\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Norbi\\Documents\\C#\\Final_Final\\Library-Project\\Library Project\\Library Project\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }
