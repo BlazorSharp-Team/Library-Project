@@ -35,7 +35,36 @@ namespace Library_Project.Pages.Admin.Rental
                 return Page();
             }
 
-            var members = _context.Members.ToList();
+            var memberList = _context.Members.Select(p => $"{p.FirstName} {p.LastName}").ToList();
+            var bookList = _context.Books.ToList();
+            if (!memberList.Where(p => p == Rental.RentalMemberName).Any())
+            {
+                return RedirectToPage("./Index");
+            }
+
+            {
+                var _book = bookList.Where(p => p.Title == Rental.RentalBookTitle && p.Quantity > 0).FirstOrDefault();
+                if (_book == null)
+                {
+                    return RedirectToPage("./Index");
+                }
+                else
+                {
+                    Rental.RentalBookIsbn = _book.isbnNumber;
+                }
+            }
+
+            _context.Rental.Add(Rental);
+            await _context.SaveChangesAsync();
+            var book = _context.Books.Where(p => p.isbnNumber == Rental.RentalBookIsbn).FirstOrDefault();
+            if (book != null)
+            {
+                book.Quantity--;
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToPage("./Index");
+
+            /*var members = _context.Members.ToList();
             var booktitles = _context.Books.ToList();
             {
                 List<string> fullNames = new List<string>();
@@ -94,7 +123,7 @@ namespace Library_Project.Pages.Admin.Rental
                 book.Quantity--;
                 await _context.SaveChangesAsync();
             }
-            return RedirectToPage("./Index");
+            return RedirectToPage("./Index");*/
         }
     }
 }
