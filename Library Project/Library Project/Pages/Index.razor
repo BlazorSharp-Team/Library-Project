@@ -3,11 +3,45 @@
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>Hello, világ!</h1>
 
-Welcome to your new app.
+Üdvözöllek a Kolibri Könyvtár nevezetű munkánk üdvözlő oldalán.
+<hr />
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<dl class="row">
+  <dt class="col-sm-4">Az oldal főbb részei 3 menü pontra oszlanak fel:</dt>
+  <dd class="col-sm-8">
+      <ul>
+          <li>Admin</li>
+          <li>Könyvek</li>
+          <li>Kölcsönzéseim</li>
+      </ul>
+  </dd>
+
+  <dt class="col-sm-4">Admin:</dt>
+  <dd class="col-sm-8">
+    <p>Adminon belül található 3 almenü</p>
+    <ul>
+          <li>Könyvek</li>
+          <li>Regisztrált tagok</li>
+          <li>Kölcsönzés</li>
+      </ul>
+    <p>Ezek megnyitásához bejelentkezés szükséges, ha nincs olyan admin felhasználó még regisztrálni kell.</p>
+    <p><b>Könyvek menüpont:</b> itt lehet új könyvet bevinni az adatbázisba, azt módosítani, tulajdonságait megvizsgálni, és törölni.</p>
+    <p><b>Regisztrált tagok menüpont:</b> itt lehet itt lehet új tagokat felvinni, módosítani, tulajdonságait megvizsgálni, és törölni.</p>
+    <p><b>Kölcsönzés menüpont:</b> itt lehet itt lehet új kölcsönzésket hozzárendelni tagokhoz, azt módosítani, tulajdonságait megvizsgálni, és törölni.</p>
+  </dd>
+
+  <dt class="col-sm-4">Könyvek:</dt>
+  <dd class="col-sm-8">
+      <p>Ezt a menü pontot bárki elérheti, itt automatikusan listázza az adatbázisban feljegyzett könyveket, és lehet köztük keresni cím alapján.</p>
+  </dd>
+
+  <dt class="col-sm-4">Kölcsönzéseim:</dt>
+  <dd class="col-sm-8">
+      <p>Ezt a menü pontot bárki elérheti, itt automatikusan listázza az adatbázisban feljegyzett könyveket, és lehet köztük keresni kölcsönző neve alapján.</p>
+  </dd>
+</dl>
 
 
 @code {
