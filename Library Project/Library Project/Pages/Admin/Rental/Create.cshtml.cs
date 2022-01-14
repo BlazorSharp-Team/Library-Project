@@ -37,38 +37,63 @@ namespace Library_Project.Pages.Admin.Rental
 
             var members = _context.Members.ToList();
             var booktitles = _context.Books.ToList();
-
-            List<string> fullNames = new List<string>();
-            List<string> bookTitles = new List<string>();
-            List<int> bookIds = new List<int>();
-
-            foreach (var member in members)
             {
-                fullNames.Add(member.FirstName + " " + member.LastName);
-            }
+                List<string> fullNames = new List<string>();
+                List<string> bookTitles = new List<string>();
+                List<string> bookIsbn = new List<string>();
+                List<int> bookQuantity = new List<int>();
+                List<int> bookIds = new List<int>();
 
-            foreach (var bookt in booktitles)
-            {
-                bookTitles.Add(bookt.Title);
-                bookIds.Add(bookt.Id);
-            }
+                foreach (var member in members)
+                {
+                    fullNames.Add(member.FirstName + " " + member.LastName);
+                }
 
-            if (!fullNames.Any(p => Rental.RentalMemberName.Contains(p)))
-            {
-                return RedirectToPage("./Index");
-            }
+                foreach (var bookt in booktitles)
+                {
+                    bookTitles.Add(bookt.Title);
+                    bookIds.Add(bookt.Id);
+                    bookIsbn.Add(bookt.isbnNumber);
+                    bookQuantity.Add(bookt.Quantity);
+                }
 
-            if (fullNames.Any(p => Rental.RentalMemberName.Contains(p)))
-            {
-                if (!bookTitles.Any(p => Rental.RentalBookTitle.Contains(p)))
+                if (!fullNames.Any(p => Rental.RentalMemberName.Contains(p)))
                 {
                     return RedirectToPage("./Index");
+                }
+
+                if (fullNames.Any(p => Rental.RentalMemberName.Contains(p)))
+                {
+                    if (!bookTitles.Any(p => Rental.RentalBookTitle.Contains(p)))
+                    {
+                        return RedirectToPage("./Index");
+                    }
+                    else
+                    {
+                        for (int i = 0; i < bookTitles.Count; i++)
+                        {
+                            if (bookQuantity[i] <= 0)
+                            {
+                                return RedirectToPage("./Index");
+                            }
+                            if (bookTitles[i] == Rental.RentalBookTitle)
+                            {
+                                Rental.RentalBookIsbn = bookIsbn[i];
+                                break;
+                            }
+                        }
+                    }
                 }
             }
 
             _context.Rental.Add(Rental);
             await _context.SaveChangesAsync();
-
+            var book =_context.Books.Where(p => p.isbnNumber == Rental.RentalBookIsbn).FirstOrDefault();
+            if(book != null)
+            {
+                book.Quantity--;
+                await _context.SaveChangesAsync();
+            }
             return RedirectToPage("./Index");
         }
     }

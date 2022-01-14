@@ -52,6 +52,12 @@ namespace Library_Project.Pages.Admin.Rental
                 _context.Rental.Remove(Rental);
                 await _context.SaveChangesAsync();
             }
+            var book = _context.Books.Where(p => p.isbnNumber == Rental.RentalBookIsbn).FirstOrDefault();
+            if (book != null)
+            {
+                book.Quantity++;
+                await _context.SaveChangesAsync();
+            }
 
             return RedirectToPage("./Index");
         }
