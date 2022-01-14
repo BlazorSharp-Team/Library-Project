@@ -1,8 +1,10 @@
 ﻿@page
+@using Library_Project.Data
 @model Library_Project.Pages.Admin.Rental.CreateModel
+@inject AppDbContext _context
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Új Könyvkölcsönzés";
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
@@ -21,7 +23,10 @@
             <div class="form-group">
                 <label asp-for="Rental.RentalBookTitle" class="control-label"></label>
                 <select asp-for="Rental.RentalBookTitle" class="form-control">
-                    <option value="A kis vakond">A kis vakond</option>    
+                @foreach (var item in _context.Books.Select(p => p.Title))
+                {
+                    <option value="@item">@item</option>
+                }  
                 </select>
                 <span asp-validation-for="Rental.RentalBookTitle" class="text-danger"></span>
             </div>
