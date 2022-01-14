@@ -6,7 +6,28 @@
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<div class="container">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../admin">Könyvek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../admin/member">Tagok</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="../admin/rental">Kölcsönzések</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+</div>
+
+<h1>Kölcsönzések</h1>
 
 <p>
     <a asp-page="Create" class="btn btn-success">Új Létrehozása</a>
@@ -35,6 +56,7 @@
             </th>
             <th></th>
             <th></th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -59,12 +81,13 @@
                 @Html.DisplayFor(modelItem => item.ReturnDate)
             </td>
             <td>
-
+                <a asp-page="./Edit" asp-route-id="@item.RentalID" style="background-color: #5c3a93" class="btn btn-success">Szerkesztés</a>
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.RentalID" style="background-color: #5c3a93" class="btn btn-success">Módosít</a> |
-                <a asp-page="./Details" asp-route-id="@item.RentalID" class="btn btn-warning">Részletek</a> |
-                <a asp-page="./Delete" asp-route-id="@item.RentalID" class="btn btn-danger">Töröl</a>
+                <a asp-page="./Details" asp-route-id="@item.RentalID" class="btn btn-warning">Részletek</a>
+            </td>
+            <td>
+                <a asp-page="./Delete" asp-route-id="@item.RentalID" class="btn btn-danger">Törlés</a>
             </td>
         </tr>
 }

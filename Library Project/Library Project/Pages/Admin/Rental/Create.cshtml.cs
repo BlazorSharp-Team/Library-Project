@@ -35,10 +35,95 @@ namespace Library_Project.Pages.Admin.Rental
                 return Page();
             }
 
+            var memberList = _context.Members.Select(p => $"{p.FirstName} {p.LastName}").ToList();
+            var bookList = _context.Books.ToList();
+            if (!memberList.Where(p => p == Rental.RentalMemberName).Any())
+            {
+                return RedirectToPage("./Index");
+            }
+
+            {
+                var _book = bookList.Where(p => p.Title == Rental.RentalBookTitle && p.Quantity > 0).FirstOrDefault();
+                if (_book == null)
+                {
+                    return RedirectToPage("./Index");
+                }
+                else
+                {
+                    Rental.RentalBookIsbn = _book.isbnNumber;
+                }
+            }
+
             _context.Rental.Add(Rental);
             await _context.SaveChangesAsync();
-
+            var book = _context.Books.Where(p => p.isbnNumber == Rental.RentalBookIsbn).FirstOrDefault();
+            if (book != null)
+            {
+                book.Quantity--;
+                await _context.SaveChangesAsync();
+            }
             return RedirectToPage("./Index");
+
+            /*var members = _context.Members.ToList();
+            var booktitles = _context.Books.ToList();
+            {
+                List<string> fullNames = new List<string>();
+                List<string> bookTitles = new List<string>();
+                List<string> bookIsbn = new List<string>();
+                List<int> bookQuantity = new List<int>();
+                List<int> bookIds = new List<int>();
+
+                foreach (var member in members)
+                {
+                    fullNames.Add(member.FirstName + " " + member.LastName);
+                }
+
+                foreach (var bookt in booktitles)
+                {
+                    bookTitles.Add(bookt.Title);
+                    bookIds.Add(bookt.Id);
+                    bookIsbn.Add(bookt.isbnNumber);
+                    bookQuantity.Add(bookt.Quantity);
+                }
+
+                if (!fullNames.Any(p => Rental.RentalMemberName.Contains(p)))
+                {
+                    return RedirectToPage("./Index");
+                }
+
+                if (fullNames.Any(p => Rental.RentalMemberName.Contains(p)))
+                {
+                    if (!bookTitles.Any(p => Rental.RentalBookTitle.Contains(p)))
+                    {
+                        return RedirectToPage("./Index");
+                    }
+                    else
+                    {
+                        for (int i = 0; i < bookTitles.Count; i++)
+                        {
+                            if (bookQuantity[i] <= 0)
+                            {
+                                return RedirectToPage("./Index");
+                            }
+                            if (bookTitles[i] == Rental.RentalBookTitle)
+                            {
+                                Rental.RentalBookIsbn = bookIsbn[i];
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+
+            _context.Rental.Add(Rental);
+            await _context.SaveChangesAsync();
+            var book =_context.Books.Where(p => p.isbnNumber == Rental.RentalBookIsbn).FirstOrDefault();
+            if(book != null)
+            {
+                book.Quantity--;
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToPage("./Index");*/
         }
     }
 }

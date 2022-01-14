@@ -18,7 +18,7 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 //builder.Services.AddRazorPages();
 builder.Services.AddRazorPages(options =>
 {
-    options.Conventions.AuthorizeFolder("/Admin/alma");
+    options.Conventions.AuthorizeFolder("/admin");
     options.Conventions.AllowAnonymousToPage("/Login");
 });
 builder.Services.AddServerSideBlazor();
@@ -60,9 +60,14 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-app.UseAuthentication();app.MapRazorPages();
+app.UseAuthentication();
+app.MapRazorPages();
 app.MapControllers();
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
-
+app.UseAuthorization();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapRazorPages();
+});
 app.Run();

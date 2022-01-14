@@ -1,51 +1,51 @@
 ﻿@page "/my-rents"
-
+@using Library_Project.Data
+@inject AppDbContext _dbcontext
 <h3>Kölcsönzéseim</h3>
 
-<form>
-    <div class="row">
-        <div class="col">
-            Add meg a neved:
-        </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Vezetéknév">
-        </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Keresztnév">
+<div class="row">
+    <div class="col-8">
+        Add meg a neved:
+    </div>
+    <div class="col-4">
+        <div class="input-group">
+            <input type="search" class="form-control rounded" placeholder="Keresés" aria-label="Search"
+                 aria-describedby="search-addon" @bind-value="seString" @bind-value:event="oninput"/>
         </div>
     </div>
-</form>
+</div>
 
 <table class="table table-striped">
     <thead>
         <tr>
-            <th>ID</th>
-            <th>Kiadó</th>
-            <th>Szerző</th>
-            <th>Cím</th>
-            <th>Visszaadás határideje</th>
+            <th>Id</th>
+            <th>Kölcsönző neve</th>
+            <th>Kölcsönzött könyv címe</th>
+            <th>Kölcsönzött könyv ISBN száma</th>
+            <th>Kölcsönzés dátuma</th>
+            <th>Visszahozatal dátuma</th>
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <th>1</th>
-            <td>Kulcslyuk Kiadó</td>
-            <td>Popper Péter</td>
-            <td>Lélekrágcsálók</td>
-            <td>2022-02-15</td>
-        </tr>
-        <tr>
-            <th>3</th>
-            <td>Lingea</td>
-            <td>-</td>
-            <td>finn társalgás</td>
-            <td>2022-02-15</td>
-        </tr>
+        
+        @foreach (var rent in _dbcontext.Rental.ToList().Where(p => p.RentalMemberName.Contains(seString) && p.RentalID != _newRent.RentalID))
+        {
+            <tr>
+                <th>@rent.RentalID</th>
+                <td>@rent.RentalMemberName</td>
+                <td>@rent.RentalBookTitle</td>
+                <td>@rent.RentalBookIsbn</td>
+                <td>@rent.RentalDate</td>
+                <td>@rent.ReturnDate</td>
+            </tr>
+        }
     </tbody>
 </table>
 
-
-
 @code {
+
+    private string seString { get; set; } = string.Empty;
+
+    private Data.Rental _newRent { get; set; } = new Data.Rental();
 
 }

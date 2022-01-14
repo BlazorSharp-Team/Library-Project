@@ -68,7 +68,7 @@
       "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -82,10 +82,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -99,10 +99,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -116,10 +116,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -133,10 +133,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -150,10 +150,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -167,10 +167,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -184,10 +184,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -201,10 +201,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -218,10 +218,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -235,10 +235,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -252,10 +252,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -269,10 +269,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -286,10 +286,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -303,10 +303,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -320,10 +320,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -337,10 +337,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -354,10 +354,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -371,10 +371,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -388,10 +388,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -405,10 +405,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -422,10 +422,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -439,10 +439,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -456,10 +456,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -473,10 +473,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -490,10 +490,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -507,10 +507,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -524,10 +524,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -541,10 +541,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -558,10 +558,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -575,10 +575,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -592,10 +592,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -609,7 +609,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
       "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
@@ -833,7 +833,7 @@
       "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -847,10 +847,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -864,10 +864,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -881,7 +881,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/jquery/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
       "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
@@ -969,24 +986,7 @@
       "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
-      "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation/LICENSE.md",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
-    },
-    {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -1000,10 +1000,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -1017,10 +1017,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
@@ -1034,7 +1034,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sando\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\Norbi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
       "Identity": "C:\\Users\\sando\\source\\repos\\Library-Project\\Library Project\\Library Project\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Library Project.styles.css",

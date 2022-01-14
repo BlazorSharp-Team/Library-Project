@@ -28,10 +28,6 @@ namespace Library_Project.Migrations
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    MemberId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    RegistrationDay = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -79,8 +75,7 @@ namespace Library_Project.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    RegistrationDate = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -209,14 +204,14 @@ namespace Library_Project.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "AspNetUsers",
-                columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "MemberId", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RegistrationDay", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "1b811341-e72d-4880-8b86-05ee88de8848", 0, "8ecd7132-dc9e-4a07-8c9e-45ddd1238a04", "admin@email.hu", false, "Teszt", "Béla", false, null, new Guid("00000000-0000-0000-0000-000000000000"), null, null, null, null, false, "2022-01-10", "89387e91-ca15-469a-ae9d-10161124e44e", false, null });
-
-            migrationBuilder.InsertData(
                 table: "Books",
                 columns: new[] { "Id", "Author", "Category", "PublishDate", "Publisher", "Quantity", "Title", "isbnNumber" },
                 values: new object[] { 1, "Teszt János", "Mese", "1995-03-15", "Teszt Kiadó", 3, "A kis vakond", "1234567891011" });
+
+            migrationBuilder.InsertData(
+                table: "Members",
+                columns: new[] { "Id", "Email", "FirstName", "LastName" },
+                values: new object[] { 1, "admin@email.hu", "Teszt", "Béla" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

@@ -41,22 +41,11 @@ namespace Library_Project.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
                     b.Property<DateTimeOffset?>("LockoutEnd")
                         .HasColumnType("datetimeoffset");
-
-                    b.Property<Guid>("MemberId")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256)
@@ -74,10 +63,6 @@ namespace Library_Project.Migrations
 
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
-
-                    b.Property<string>("RegistrationDay")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
@@ -100,24 +85,6 @@ namespace Library_Project.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "1b811341-e72d-4880-8b86-05ee88de8848",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "8ecd7132-dc9e-4a07-8c9e-45ddd1238a04",
-                            Email = "admin@email.hu",
-                            EmailConfirmed = false,
-                            FirstName = "Teszt",
-                            LastName = "Béla",
-                            LockoutEnabled = false,
-                            MemberId = new Guid("00000000-0000-0000-0000-000000000000"),
-                            PhoneNumberConfirmed = false,
-                            RegistrationDay = "2022-01-10",
-                            SecurityStamp = "89387e91-ca15-469a-ae9d-10161124e44e",
-                            TwoFactorEnabled = false
-                        });
                 });
 
             modelBuilder.Entity("Library_Project.Data.Books", b =>
@@ -193,12 +160,18 @@ namespace Library_Project.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("RegistrationDate")
-                        .HasColumnType("datetime2");
-
                     b.HasKey("Id");
 
                     b.ToTable("Members");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Email = "admin@email.hu",
+                            FirstName = "Teszt",
+                            LastName = "Béla"
+                        });
                 });
 
             modelBuilder.Entity("Library_Project.Data.Rental", b =>
